@@ -1,0 +1,35 @@
+prose:
+  rooturl: ''
+  media: 'media'
+  ignore:
+    - _config.yml
+    
+  metadata:
+    '':
+      - name: "layout"
+        field:
+          element: "text"
+          label: "Layout"
+          value: "default"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "Add Tags"
+          placeholder: "Choose Tags"
+          options:
+            - name: "Sales"
+              value: "sales"
+            - name: "Development"
+              value: "development"
+            - name: "Directors"
+              value: "directors"
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          placeholder: "Enter the main author"
+      - name: "contributors"
+        field:
+          element: "text"
+          label: "Contributors"
+          placeholder: "Enter any contributors"
